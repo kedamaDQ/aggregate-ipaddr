@@ -2,7 +2,7 @@
 Tools for aggregate IP address blocks which fetched from all Regional Internet Registries.
 
 ## usage
-run `create-delegated-list.sh` then `/tmp/aggregate-ipaddr/aggregated-ipaddrs.txt` is created.
+run `create-aggregated-ipaddrs.sh` then `/tmp/aggregate-ipaddr/aggregated-ipaddrs.txt` is created.
 
 ## aggregated-ipaddrs.txt
 The format of line is:
@@ -13,7 +13,7 @@ The format of line is:
 
 Each IP address and CIDR are aggregated into the largest possible block. eg:
 
-`delegated-RIR-extended-latest` created by each RIRs is enumerated following:
+`delegated-RIR-extended-latest` fetched from each RIRs is enumerated following:
 
 ```
 256 addresses from 192.168.0.0

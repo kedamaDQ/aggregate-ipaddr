@@ -173,7 +173,6 @@ sub msb($) {
 }
 
 sub split_block($) {
-  my $UNIT = 256;
   my $cc = $_[0]->{'cc'};
   my $value = $_[0]->{'value'};
   my $start = $_[0]->{'start'};

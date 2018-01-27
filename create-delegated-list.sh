@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
-FILES_DIR=$(echo ${2:-'/tmp/aggregate-ipaddr'} | sed -e "s|/$||");
+FILES_DIR=$(echo ${1:-'/tmp/aggregate-ipaddr'} | sed -e "s|/$||");
 
 MKDIR_BIN='/sbin/mkdir'
 PERL_BIN='/sbin/perl'

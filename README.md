@@ -44,10 +44,13 @@ And `delegated-RIR-extended-latest` has like following also:
 ## note
 Change command path variables in `create-aggregated-ipaddrs.sh` for your distribution. (The default variables is set for Arch Linux.)
 
-### For Gentoo
+### for Gentoo
 
 ```
 MKDIR_BIN='/bin/mkdir'
 PERL_BIN='/usr/bin/perl'
 CURL_BIN='/usr/bin/curl'
 ```
+
+## thanks
+Made to compatibility with the output of nami.jp.

@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# Consolidate IP Addresses.
+# Aggregate IP Address blocks which fetched from all RIRs.
 #
 # [Files on Regional Internet Registries]
 #   ftp://ftp.arin.net/pub/stats/arin/delegated-arin-extended-latest
@@ -49,7 +49,7 @@ $dir =~ s|/$||;
 
 unless (-d $dir || -x $dir) {
   print STDERR "[EE] Cannot read directory: ${dir}\n";
-  exit 1;
+  exit 2;
 }
 
 ################################################################################
